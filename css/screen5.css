@@ -259,16 +259,6 @@ blockquote span {
   background: transparent url("../images/left.jpg") no-repeat right top;
 }
 
-
-/**  Center Column ***/
-#image {
-  float: left;
-  width: 15%;  
-  height:700px;
-  vertical-align: top;
-  background: #FFEE00 url("../images/cubes2.jpg") no-repeat top center;
-}
-
 /** Right column  **/
 #sideBar {
   float: left;

@@ -1,0 +1,9 @@
+@import "screen5.css"; /* Using a string */
+/**  Center Column ***/
+#image {
+  float: left;
+  width: 15%;  
+  height:700px;
+  vertical-align: top;
+  background: #000000 url("../images/cubes2.jpg") no-repeat top center;
+}
