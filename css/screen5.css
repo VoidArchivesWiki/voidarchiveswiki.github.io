@@ -332,11 +332,11 @@ blockquote span {
 }
 
 /***************************************************
- Footer
+ FooterHI
  ***************************************************/
 
 /** No Side Pad here, unless lower percentage to account ***/ 
-#footer {
+#footerHI {
   clear: both;
   float: left;
   width: 97.5%;
@@ -344,16 +344,16 @@ blockquote span {
   padding-left:2%;
   color: #888;}
 
-#footer p {
+#footerHI p {
   padding-top: 0 !important;
   padding-top: 10px;
 }
 
-#footer a {
+#footerHI a {
   color: #888;
 }
 
-#footer a:hover {
+#footerHI a:hover {
   color: #EEE;
 }
 
@@ -362,7 +362,45 @@ a.fullAhead {
   width: 128px;
   height: 128px;  
   margin-right: 10px;
-  background: url(../images/logo_honkai.gif) no-repeat 0 0;
+  background: url(/Void-Archives-Honkai-Wiki/images/logo_honkai.gif) no-repeat 0 0;
+}
+
+a:hover.fullAhead  {
+  background-position: -128px 0;
+}
+
+/***************************************************
+ FooterSR
+ ***************************************************/
+
+/** No Side Pad here, unless lower percentage to account ***/ 
+#footerSR {
+  clear: both;
+  float: left;
+  width: 97.5%;
+  padding: 10px 0px;
+  padding-left:2%;
+  color: #888;}
+
+#footerSR p {
+  padding-top: 0 !important;
+  padding-top: 10px;
+}
+
+#footerSR a {
+  color: #888;
+}
+
+#footerSR a:hover {
+  color: #EEE;
+}
+
+a.fullAhead {
+  float: left;
+  width: 128px;
+  height: 128px;  
+  margin-right: 10px;
+  background: url(/Void-Archives-StarRail-Wiki/images/logo_honkai.gif) no-repeat 0 0;
 }
 
 a:hover.fullAhead  {
