@@ -58,47 +58,6 @@ input {
 
 textarea {
   width: 98%;
-
-/*** This is where you adjust the width: Example; if you want 90% width, 
-just take the difference, which is 10% and put half of 10% on the left and 
-set your width for 90%.  Done deal!!!!  ***/
-
-.wrap {position:absolute;top:0px; left:1.5%; width:97%; margin:0; z-index:500;
-background-color: #000000; border-left:1px solid #000000; border-right: 1px solid #000000;}
-
-
-
-f { 
-  padding-top: 10px !important;
-  padding-top: 3px;
-  padding-bottom: 10px !important;
-  padding-bottom: 3px;
-}
-
-
-b {
-  color: #FFEE00;
-}
-
-b:visited {
-  color: #AAA;
-}
-
-b:hover {
-  color: #FFF;
-}
-
-acronym {
-  cursor: help;
-  border-bottom: 1px solid #777;
-}
-
-input {
-  width: 70%;
-}
-
-textarea {
-  width: 98%;
   /* 
     IE specific to eliminate scroll bar when not needed. 
     Uncomment if wanted, but it is not valid CSS
@@ -251,31 +210,6 @@ blockquote span {
   background: url(../images/menu_tab.gif) no-repeat bottom center;
 }
 
-/** Played with the top banner menu "width" here, 
-5 items at 10% = half page width  **/
-#menu ul li {
-  width: 8%;
-  display: inline;
-  float: left;
-  padding-top: 0.8em;  
-  list-style: none;
-  text-align: center;
-}
-
-#menu ul li b {
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding-bottom: 1.0em;
-  color: #222;
-}
-
-#menu ul li b:hover,
-#menu ul li b.active {
-  font-weight: bold;
-  color: #111;
-  background: url(../images/menu_tab.gif) no-repeat bottom center;
-}
 
 /***************************************************
   Site Title
@@ -365,34 +299,6 @@ blockquote span {
 }
 
 /***************************************************
- Sidemenu Styles
- ***************************************************/
-
-.sideMenu {
-  padding: 10px 0;
-}
-
-.sideMenu b {
-  display: block;
-  text-align: right;
-  text-decoration: none;
-  margin-bottom: 1px;  
-}
-
-.sideMenu b span {
-  display: block;
-  padding: 1px;
-}
-
-.sideMenu b:hover {
-  background: #000000 no-repeat top left;
-}
-
-.sideMenu b:hover span {
-  background: #000000 no-repeat bottom left;
-}
-
-/***************************************************
  Comment Styles
  ***************************************************/
 
@@ -422,39 +328,6 @@ blockquote span {
 }
 
 #comments a:hover {
-  color: #FFF;
-}
-
-/***************************************************
- Comment Styles
- ***************************************************/
-
-#comments f {
-  padding: 0 5px;
-  margin-bottom: 0;
-  background: #000000 no-repeat top left;
-}
-
-#comments f span.author {
-  display: block;
-  margin-top: 5px;
-  text-align: right;
-  font-weight: 700;
-}
-
-#comments img {
-  margin-top: -1px;
-}
-
-#comments b {
-  color: #FFEE00;
-}
-
-#comments b:visited {
-  color: #AAA;
-}
-
-#comments b:hover {
   color: #FFF;
 }
 
@@ -509,20 +382,20 @@ a:hover.fullAhead  {
   padding-left:2%;
   color: #888;}
 
-#footerSR f {
+#footerSR p {
   padding-top: 0 !important;
   padding-top: 10px;
 }
 
-#footerSR b {
+#footerSR a {
   color: #888;
 }
 
-#footerSR b:hover {
+#footerSR a:hover {
   color: #EEE;
 }
 
-b.fullAhead {
+a.fullAhead {
   float: left;
   width: 128px;
   height: 128px;  
@@ -530,7 +403,7 @@ b.fullAhead {
   background: url(/Void-Archives-StarRail-Wiki/images/logo_honkai.gif) no-repeat 0 0;
 }
 
-b:hover.fullAhead  {
+a:hover.fullAhead  {
   background-position: -128px 0;
 }
 
