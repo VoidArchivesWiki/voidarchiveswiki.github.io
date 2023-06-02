@@ -1,4 +1,4 @@
-fetch("Void-Archives-Honkai-Wiki/sideinfo.html")
+fetch("/Void-Archives-Honkai-Wiki/sideinfo.html")
   .then(response => {
     return response.text()
   })
@@ -6,7 +6,7 @@ fetch("Void-Archives-Honkai-Wiki/sideinfo.html")
     document.querySelector("sideBarHI").innerHTML = data;
   });
   
-fetch("Void-Archives-StarRail-Wiki/sideinfo.html")
+fetch("/Void-Archives-StarRail-Wiki/sideinfo.html")
   .then(response => {
     return response.text()
   })
