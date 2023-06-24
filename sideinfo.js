@@ -1,4 +1,4 @@
-fetch("/Void-Archives-Honkai-Wiki/sideinfo.html")
+fetch("/HI3/sideinfo.html")
   .then(response => {
     return response.text()
   })
