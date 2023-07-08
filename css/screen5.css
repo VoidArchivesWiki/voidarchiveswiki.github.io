@@ -362,7 +362,7 @@ a.fullAheadGGZ {
   width: 128px;
   height: 128px;  
   margin-right: 10px;
-  background: url(../images/logo_honkai.gif) no-repeat 0 0;
+  background: url(/GGZ/images/logo_honkai.gif) no-repeat 0 0;
 }
 
 a:hover.fullAheadGGZ  {
