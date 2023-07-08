@@ -13,3 +13,11 @@ fetch("/HSR/sideinfo.html")
   .then(data => {
     document.querySelector("sideBarSR").innerHTML = data;
   });
+  
+fetch("/GGZ/sideinfo.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("sideBarGGZ").innerHTML = data;
+  });

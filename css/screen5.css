@@ -332,6 +332,44 @@ blockquote span {
 }
 
 /***************************************************
+ FooterGGZ
+ ***************************************************/
+
+/** No Side Pad here, unless lower percentage to account ***/ 
+#footerGGZ {
+  clear: both;
+  float: left;
+  width: 97.5%;
+  padding: 10px 0px;
+  padding-left:2%;
+  color: #888;}
+
+#footerGGZ p {
+  padding-top: 0 !important;
+  padding-top: 10px;
+}
+
+#footerGGZ a {
+  color: #888;
+}
+
+#footerGGZ a:hover {
+  color: #EEE;
+}
+
+a.fullAheadGGZ {
+  float: left;
+  width: 128px;
+  height: 128px;  
+  margin-right: 10px;
+  background: url(../images/logo_honkai.gif) no-repeat 0 0;
+}
+
+a:hover.fullAheadGGZ  {
+  background-position: -128px 0;
+}
+
+/***************************************************
  FooterHI
  ***************************************************/
 
