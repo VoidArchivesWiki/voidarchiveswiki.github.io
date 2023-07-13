@@ -38,7 +38,30 @@
     <div id="text">
 	  <p></p>
 	  <font size="+2">Error 404 Page not found.</font></br>
-	  <p><font size="+1">This page will be redirected to the <a href="/">Void Archives Wiki Home Page</a> in 20 seconds.</font></p>
+	  <p><font size="+1">This page will be redirected to the <a href="/">Void Archives Wiki Home Page</a> in </font>
+	  <font size="+1" id="timer"></font>
+<script>
+var countDownDate = new Date().getTime() + 22000;
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("timer").innerHTML = seconds + " seconds. ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "0";
+  }
+}, 1000);
+</script>
     </div>
     <div id="s-image">&nbsp;</div>
 	<div id="sideBar">
